@@ -45,23 +45,6 @@ void out_figure()
     }
 }
 
-/*int get_num(string com)
-{
-    double e;
-    e = com.length();
-    string num = "";
-    for (int i = q; i < e; i++) {
-        if ((com[i] == ' ') || (com[i] == ',') || (com[i] == ')')) {
-            break;
-        } else {
-            num += com[i];
-            q++;
-        }
-    }
-    q += 2;
-    return stoi(num);
-}*/
-
 int get_num(string com, int pos, int start_pos)
 {
     double e;
