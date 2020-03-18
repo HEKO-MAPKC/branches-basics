@@ -43,6 +43,10 @@ void out_figure()
     }
 }
 
+int out_information(int n){
+    cout << figure.name[n] << " " << figure.x[n] << " " << figure.y[n] << endl;
+}
+
 int get_num(string com, int pos, int start_pos)
 {
     double e;
