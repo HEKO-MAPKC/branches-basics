@@ -34,9 +34,7 @@ void out_figure()
         cout << "intersects:" << endl;
         for (int j = 0; j < h; j++) {
             if (k != j) {
-                a
-                        = sqrt(pow(figure.x[j] - figure.x[k], 2)
-                               + pow(figure.y[j] - figure.y[k], 2));
+                a= sqrt(pow(figure.x[j] - figure.x[k], 2)+ pow(figure.y[j] - figure.y[k], 2));
                 if (figure.r[k] + figure.r[j] >= a)
                     cout << j + 1 << ". " << figure.name[j] << endl;
             }
