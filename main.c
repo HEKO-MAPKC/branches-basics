@@ -41,7 +41,6 @@ void out_figure()
         }
         cout << endl;
         cout << endl;
-        cout << endl;
     }
 }
 
