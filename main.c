@@ -68,20 +68,15 @@ int get_num(string com, int pos, int start_pos)
 void get_figure()
 {
     size_t npos = -1;
-    // int q = 0;
     string com;
     while (com.find("stop")) {
         getline(cin, com);
         if (com.find("circle") != npos) {
             figure.name.push_back("circle");
-            // q = 7;
             figure.x.push_back(get_num(com, 0, 7));
-            // out_figure(0);
             figure.y.push_back(get_num(com, 1, 7));
-            // out_figure(0);
             figure.r.push_back(get_num(com, 2, 7));
         }
-        // q = 0;
     }
     cout << endl;
 }
